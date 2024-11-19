@@ -19,7 +19,7 @@ const StateTutorial = () =>{
  
     return (
         <div>
-             {counter} k
+             {counter} $
             <div>
                <button onClick={increment}>Increment</button>
             </div>
