@@ -1,5 +1,6 @@
 import './App.css';
 import EffectTutorial from './useEffect/EffectTutorial';
+import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
 import ReducerTutorial from './useReducer/ReducerTutorial';
 import RefTutorial from './UseRef/RefTutorial';
 import StateTutorial from './useState/StatetTutorial';
@@ -11,7 +12,8 @@ function App() {
       {/* <StateTutorial></StateTutorial> */}
       {/* <ReducerTutorial></ReducerTutorial> */}
       {/* <EffectTutorial></EffectTutorial> */}
-      <RefTutorial></RefTutorial>
+      {/* <RefTutorial></RefTutorial> */}
+      <LayoutEffectTutorial></LayoutEffectTutorial>
     </div>
   );
 }
