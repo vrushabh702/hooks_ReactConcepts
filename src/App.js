@@ -1,4 +1,5 @@
 import './App.css';
+import EffectTutorial from './useEffect/EffectTutorial';
 import ReducerTutorial from './useReducer/ReducerTutorial';
 import StateTutorial from './useState/StatetTutorial';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       {/* <h1>Hello world</h1> */}
       {/* <StateTutorial></StateTutorial> */}
-      <ReducerTutorial></ReducerTutorial>
+      {/* <ReducerTutorial></ReducerTutorial> */}
+      <EffectTutorial></EffectTutorial>
     </div>
   );
 }
