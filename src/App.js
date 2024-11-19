@@ -1,5 +1,6 @@
 import './App.css';
 import EffectTutorial from './useEffect/EffectTutorial';
+import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
 import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
 import ReducerTutorial from './useReducer/ReducerTutorial';
 import RefTutorial from './UseRef/RefTutorial';
@@ -13,7 +14,8 @@ function App() {
       {/* <ReducerTutorial></ReducerTutorial> */}
       {/* <EffectTutorial></EffectTutorial> */}
       {/* <RefTutorial></RefTutorial> */}
-      <LayoutEffectTutorial></LayoutEffectTutorial>
+      {/* <LayoutEffectTutorial></LayoutEffectTutorial> */}
+      <ImperativeHandle></ImperativeHandle>
     </div>
   );
 }
