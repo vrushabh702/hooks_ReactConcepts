@@ -3,6 +3,7 @@ import ContextTutorial from './useContext/ContextTutorial';
 import EffectTutorial from './useEffect/EffectTutorial';
 import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
 import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
+import MemoTutorial from './UseMemo/MemoTutorial';
 import ReducerTutorial from './useReducer/ReducerTutorial';
 import RefTutorial from './UseRef/RefTutorial';
 import StateTutorial from './useState/StatetTutorial';
@@ -17,7 +18,8 @@ function App() {
       {/* <RefTutorial></RefTutorial> */}
       {/* <LayoutEffectTutorial></LayoutEffectTutorial> */}
       {/* <ImperativeHandle></ImperativeHandle> */}
-      <ContextTutorial></ContextTutorial>
+      {/* <ContextTutorial></ContextTutorial> */}
+      <MemoTutorial></MemoTutorial>
     </div>
   );
 }
