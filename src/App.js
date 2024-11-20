@@ -1,4 +1,5 @@
 import './App.css';
+import CallBackTutorial from './useCallback/callbackTutorial';
 import ContextTutorial from './useContext/ContextTutorial';
 import EffectTutorial from './useEffect/EffectTutorial';
 import ImperativeHandle from './UseImperativeHandle/ImperativeHandle';
@@ -19,7 +20,8 @@ function App() {
       {/* <LayoutEffectTutorial></LayoutEffectTutorial> */}
       {/* <ImperativeHandle></ImperativeHandle> */}
       {/* <ContextTutorial></ContextTutorial> */}
-      <MemoTutorial></MemoTutorial>
+      {/* <MemoTutorial></MemoTutorial> */}
+      <CallBackTutorial></CallBackTutorial>
     </div>
   );
 }
